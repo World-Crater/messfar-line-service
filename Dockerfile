@@ -4,6 +4,6 @@ WORKDIR /messfar-line-service
 
 COPY . /messfar-line-service
 
-# RUN npm install
+RUN npm install
 
 ENTRYPOINT ["npm", "start"]
